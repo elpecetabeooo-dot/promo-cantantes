@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Promoción de Cantantes Cubanos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎶 Promoción de Cantantes Cubanos</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="promocion.html">Promoción</a>
+    </nav>
+  </header>
+
+  <main class="promo">
+    <h2>📩 Registro gratuito</h2>
+    <p>Por ahora la promoción es totalmente <strong>gratis</strong>. Registra tu información y aparecerás en la lista de artistas.</p>
+
+    <!-- Formulario de registro -->
+    <form id="artistForm">
+      <input type="text" id="nombre" placeholder="Nombre del artista" required>
+      <input type="text" id="genero" placeholder="Género musical" required>
+      <input type="url" id="link" placeholder="Enlace a tu música (YouTube/Spotify)" required>
+      <textarea id="mensaje" placeholder="Mensaje adicional" rows="4"></textarea>
+      <button type="submit">Registrar artista</button>
+    </form>
+
+    <!-- Lista de artistas -->
+    <h2>🎤 Artistas registrados</h2>
+    <ul id="artistList"></ul>
+
+
+    <!-- Tabla de precios (informativa, no activa aún) -->
+    <section class="precios">
+      <h2>💰 Planes de Promoción (Próximamente)</h2>
+      <table>
+        <tr>
+          <th>Plan</th>
+          <th>Beneficios</th>
+          <th>Precio</th>
+        </tr>
+        <tr>
+          <td>Básico</td>
+          <td>- Aparición en la lista<br>- Enlace a tu música</td>
+          <td>$200 Cup</td>
+        </tr>
+        <tr>
+          <td>Premium</td>
+          <td>- Aparición destacada con foto<br>- Enlace directo a redes<br>- Promoción en redes sociales</td>
+          <td>$500 Cup</td>
+        </tr>
+        <tr>
+          <td>VIP</td>
+          <td>- Entrevista exclusiva<br>- Publicación fija en portada<br>- Difusión en campañas especiales</td>
+          <td>$1000 Cup</td>
+        </tr>
+      </table>
+      <p><em>Por ahora todos los registros son gratuitos. Los planes de pago estarán disponibles más adelante.</em></p>
+    </section>
+  </main>
+
+
+  <footer>
+    <p>© 2026 Promoción Cubana</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
